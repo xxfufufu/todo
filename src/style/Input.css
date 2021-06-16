@@ -1,0 +1,44 @@
+.input__container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.input__form {
+    flex: 1;
+    margin-right: 25px;
+    height: 56px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--fontContent);
+    border:1px solid #BDBDBD;
+    border-radius: 16px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.input__button {
+    width: 109px;
+    border:1px solid #BDBDBD;
+    height: 56px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: var(--fontContent);
+    background-color:  #2F80ED;
+    color: #fff;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.input__form:hover {
+    border: 1px solid #2774da;
+}
+
+.input__button:hover {
+    background-color: #4173b6;
+}
+
+.input__form:focus {
+    outline: none;
+    border: 1px solid #96bcee;
+}
+

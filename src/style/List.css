@@ -1,0 +1,24 @@
+.list__todo {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.list__checkbox {
+    margin-right: 7px;
+    cursor: pointer;
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.list__details {
+    font-family: var(--fontContent);
+    font-size: 18px;
+    font-weight: 500;
+    flex: 1;
+}
+
+.--done {
+    text-decoration: line-through;
+}
+
